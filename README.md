@@ -23,7 +23,7 @@ Hugo Devlite CV theme is created for developers so they can create their CV effo
 - Compatible with all modern browsers
 
 ### Demo
-https://oborshch.github.io/
+https://oborshch.github.io/devlite-cv/
 
 ### Using
 
