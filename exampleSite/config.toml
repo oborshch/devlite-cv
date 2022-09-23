@@ -1,0 +1,229 @@
+# Page settings
+baseurl = "https://example.com"
+languageCode = "en-us"
+
+theme = "devlite-cv"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+    description = "Roland Wilson Resume"
+    author = "Roland Wilson"
+    title = "Roland Wilson Resume"
+    github_username = "username"
+
+    [params.profile]
+        name = "Roland Wilson"
+        tagline = "Software Engineer"
+        avatar = "profile.jpg"
+        
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "location"
+        icon = "fa-location-arrow"
+        url = "#"
+        title = "England"
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: example@email.com"
+        title = "example@email.com"
+
+        [[params.contact.list]]
+        class = "telegram"
+        icon = "fa-paper-plane"
+        url = "//t.me/username"
+        title = "@username"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//example.com"
+        title = "example.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/username/"
+        title = "@username/"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/username"
+        title = "github.com/username"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/username"
+        title = "@username"
+
+        [[params.contact.list]]
+        class = "instagram"
+        icon = "fa-instagram"
+        url = "//instagram.com/username/"
+        title = "@username"
+
+        [[params.contact.list]]
+        class = "youtube"
+        icon = "fa-youtube"
+        url = "//youtube.com/c/username"
+        title = "@username"
+
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Work experiences"
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer "
+        dates = "2020 - Present"
+        company = "Pied Piper"
+        details = "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer "
+        dates = "2020 - Present"
+        company = "Pied Piper"
+        details = "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+
+        
+
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Personal Projects"
+        intro = "This is part of my projects that I have developed and maintain. You can find many of my other projects in my GitHub profile"
+        
+        [[params.projects.list]]
+        title = "Project name"
+        url = "https://example.com"
+        tagline = "lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        
+        
+    [params.tools]
+        enable = true
+        icon = "fa-laptop"
+        title = "Languages and Tools"
+
+        [[params.tools.list]]
+        badge = "CSS3"   
+        skill = "CSS3"
+        style = "flat-square"
+        color = "black"
+        logo = "CSS3"
+
+        [[params.tools.list]]
+        badge = "Python"   
+        skill = "Python"
+        style = "flat-square"
+        color = "black"
+        logo = "Python"
+
+        [[params.tools.list]]
+        badge = "Django"   
+        skill = "Django"
+        style = "flat-square"
+        color = "black"
+        logo = "Django"
+
+        [[params.tools.list]]
+        badge = "PHP"   
+        skill = "PHP"
+        style = "flat-square"
+        color = "black"
+        logo = "PHP"
+
+        [[params.tools.list]]
+        badge = "Go"   
+        skill = "Go"
+        style = "flat-square"
+        color = "black"
+        logo = "Go"
+
+        [[params.tools.list]]
+        badge = "HTML5"   
+        skill = "HTML5"
+        style = "flat-square"
+        color = "black"
+        logo = "HTML5"
+
+        [[params.tools.list]]
+        badge = "Bootstrap"   
+        skill = "Bootstrap"
+        style = "flat-square"
+        color = "black"
+        logo = "Bootstrap"
+
+        [[params.tools.list]]
+        badge = "MongoDB"   
+        skill = "MongoDB"
+        style = "flat-square"
+        color = "black"
+        logo = "MongoDB"
+
+        [[params.tools.list]]
+        badge = "Redis"   
+        skill = "Redis"
+        style = "flat-square"
+        color = "black"
+        logo = "Redis"
+
+        [[params.tools.list]]
+        badge = "C"   
+        skill = "C"
+        style = "flat-square"
+        color = "black"
+        logo = "C"
+
+        [[params.tools.list]]
+        badge = "Apache"   
+        skill = "Apache"
+        style = "flat-square"
+        color = "black"
+        logo = "Apache"
+
+        [[params.tools.list]]
+        badge = "Nginx"   
+        skill = "Nginx"
+        style = "flat-square"
+        color = "black"
+        logo = "Nginx"
+
+        [[params.tools.list]]
+        badge = "Markdown"   
+        skill = "Markdown"
+        style = "flat-square"
+        color = "black"
+        logo = "Markdown"
+
+        [[params.tools.list]]
+        badge = "GraphQL"   
+        skill = "GraphQL"
+        style = "flat-square"
+        color = "black"
+        logo = "GraphQL"
+
+        [[params.tools.list]]
+        badge = "Linux"   
+        skill = "Linux"
+        style = "flat-square"
+        color = "black"
+        logo = "Linux"
+
+        

@@ -1,0 +1,18 @@
+name = "DevLite CV"
+license = "MIT"
+licenselink = "//github.com/oborshch/devlite-cv/blob/master/LICENSE"
+description = "Responsive Resume/CV Theme for Developers"
+homepage = "//github.com/oborshch/devlite-cv/"
+tags = ["cv", "resume", "colour schemes", "minimal", "portfolio"]
+features = ["responsive", "colour schemes"]
+min_version = 0.1
+
+[author]
+  name = "Oleksandr Borshch"
+  homepage = "//oborshch.github.io"
+
+# Based on html template
+[original]
+  name = "Xiaoying Riley"
+  homepage = "//github.com/xriley"
+  repo = "//github.com/xriley/Orbit-Theme"

@@ -1,0 +1,13 @@
+<section class="skills-section section">
+    <h2 class="section-title"><i class="fa {{ .Site.Params.tools.icon }}"></i>{{ .Site.Params.tools.title }}</h2>
+    <div class="skillset">
+        
+        
+        {{ range .Site.Params.tools.list }}
+            <img alt="{{ .badge }}" src="https://img.shields.io/badge/-{{ .skill }}-{{ .color }}?style={{ .style }}&logo={{ .logo }}">
+        {{ end }}
+
+    </div>
+    
+</section><!--//skills-section-->
+<i>This is a preliminary version of the CV. In the future, I will be sure to add more information that needs to be piled up and put on this page.</i>
